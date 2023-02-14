@@ -8,7 +8,54 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="result"></div>
-    <script src="js/script.js"></script>
+    <form id="form">
+        <label for="code-postal-input">Code postal:</label>
+        <input type="text" id="code-postal-input" name="codePostal">
+        <button type="submit">Rechercher</button>
+      </form>
+
+      <select id="town-select" style="display:none;">
+        <option value="">-- Sélectionnez une ville --</option>
+      </select>
+      
+      <div class="result"></div>
+      <div class="town-info" style="display:none;">
+        <p>Population: <span id="population"></span></p>
+      </div>
+ 
+
+
+      <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+        <div class="snowflake">
+        ❅
+        </div>
+        <div class="snowflake">
+        ❆
+        </div>
+        <div class="snowflake">
+        ❄
+        </div>
+      <script src="js/script.js"></script>   
 </body>
 </html>
